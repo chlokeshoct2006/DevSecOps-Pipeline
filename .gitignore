@@ -1,0 +1,22 @@
+# Maven build output
+/target/
+
+# Kubernetes credentials
+/secret.yaml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
