@@ -1,4 +1,4 @@
-def registry = 'https://trial6rs755.jfrog.io'
+def registry = 'https://trial6rs755.jfrog.io/artifactory'
 def imageName = 'trial6rs755.jfrog.io/satish-docker-local-docker-local/sample_app'
 def version = '2.1.2'
 pipeline {
